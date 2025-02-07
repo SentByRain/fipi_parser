@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "fipi_parser",
+  "version": "1.0.0",
+  "description": "Application for parsing tasks from fipi task bank",
+  "main": "parser.js",
+  "author": "Edigarev_Anton",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node parser.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "jsdom": "^26.0.0"
+  }
+}
